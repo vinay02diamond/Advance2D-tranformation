@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: royalblue;
+    margin-top: 300px;
+    margin-left: 300px;
+
+}
+
+
+.box:hover {
+    /* transform:rotate(50deg); */
+    /* transform: scalex(2); */
+    /* transform: scaley(2); */
+    /* transform:skew(20deg,30deg); */
+    /* transform:skewx(20deg); */
+    /* transform:skewy(20deg); */
+    /* transform: translate(50px,100px); */
+    /* transform: matrix(2,30deg,20deg,3,100px,100px); */
+    /* transform: matrix(1,2,-1,1,80,80); */
+    transform:matrix(0.707, 0.707, -0.707, 0.707, -100, 0);
+    transition: 3s;
+
+
+}
